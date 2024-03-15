@@ -1,0 +1,20 @@
+Introduction
+Le projet vise à développer un logiciel de chat en Python permettant à plusieurs utilisateurs de communiquer de manière bidirectionnelle avec une latence négligeable. Le logiciel sera divisé en deux parties : une interface en ligne de commande pour la communication entre deux utilisateurs et un chat multi-utilisateur avec interface graphique pour une communication de groupe.
+
+Partie 1 - Interface en Ligne de Commande
+Dans cette partie, l'objectif est de créer une interface en ligne de commande permettant à deux utilisateurs de communiquer. Les fonctionnalités principales incluent :
+Saisie d'un message au clavier et envoi à l'autre utilisateur.
+Réception des messages reçus.
+Pour cela, la librairie socket sera utilisée pour établir une connexion directe entre les deux utilisateurs. L'interface sera simple et basée sur le terminal.
+
+Partie 2 - Chat Multi-utilisateur avec Interface Graphique
+Constatant les limitations de la première partie, la seconde partie implémentera un chat multi-utilisateur avec une interface graphique. Les fonctionnalités incluront :
+
+Communication entre plusieurs utilisateurs dans un groupe.
+Interface graphique pour une meilleure expérience utilisateur.
+Un serveur Flask sera mis en place pour servir d'intermédiaire entre les différents clients. Les interfaces graphiques seront développées en HTML/CSS/JS et fournies par le serveur Flask. Flask-SocketIO sera utilisé pour permettre une communication bidirectionnelle en temps réel entre le serveur web et les navigateurs des utilisateurs. 
+
+
+
+
+
